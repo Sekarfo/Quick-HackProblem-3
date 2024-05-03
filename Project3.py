@@ -99,7 +99,7 @@ def prepare_prompt(data):
     return csv_string
 
 def send_to_gpt_ai(prompt, section, country, social_status):
-    api_key = 'sk-proj-7M4GOhAp3Z1UjDX5NNSJT3BlbkFJn7TgZQpR3UqHcPTfarK8'
+    api_key = 'sk-xxxx'
     if not api_key:
         return "API key not set. Please configure the environment variable."
 
